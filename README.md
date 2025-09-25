@@ -38,7 +38,7 @@ Day-1/
 ## Setup & Installation
 1. **Clone the repository**  
 ```
-git clone https://github.com/yourusername/day-1.git
+git clone https://github.com/serene-devops/Day-1-hello-devops-pipeline.git
 cd day-1
 ```
 
