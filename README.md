@@ -60,10 +60,10 @@ http://localhost:5000
 ```
 
 ## CI/CD Pipeline (Jenkins):
-Pulls code from GitHub
-Builds Docker image
-Runs container automatically
-Provides deployment logs
+1.Pulls code from GitHub
+2.Builds Docker image
+3.Runs container automatically
+4.Provides deployment logs
 
 ## Screenshots:
 (To be added: terminal outputs, Jenkins pipeline, app running in browser)
