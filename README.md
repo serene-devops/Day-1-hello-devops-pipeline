@@ -1,6 +1,5 @@
 # Day 1: Hello DevOps CI/CD Pipeline
 
-One-line description:  
 A simple DevOps CI/CD pipeline using Docker and Jenkins to build and run a Python Flask app.
 
 ## Table of Contents
@@ -16,8 +15,7 @@ A simple DevOps CI/CD pipeline using Docker and Jenkins to build and run a Pytho
 10. [Notes / Challenges Solved](#notes--challenges-solved)
 
 ## Project Overview
-This project is a simple Flask web application, dockerized and deployed using a Jenkins CI/CD pipeline.  
-Whenever code is pushed to GitHub, Jenkins automatically builds the Docker image and runs the container, demonstrating an end-to-end DevOps workflow from code commit to deployment.
+This project is a simple Flask web application, dockerized and deployed using a Jenkins CI/CD pipeline. Whenever code is pushed to GitHub, Jenkins automatically builds the Docker image and runs the container, demonstrating an end-to-end DevOps workflow from code commit to deployment.
 
 ## Technologies Used
 - **Git & GitHub** – Version control & code hosting  
@@ -58,12 +56,6 @@ docker run -d -p 5000:5000 day-1-app
 ```
 http://localhost:5000
 ```
-
-## CI/CD Pipeline (Jenkins):
-1.Pulls code from GitHub
-2.Builds Docker image
-3.Runs container automatically
-4.Provides deployment logs
 
 ## Screenshots:
 (To be added: terminal outputs, Jenkins pipeline, app running in browser)
