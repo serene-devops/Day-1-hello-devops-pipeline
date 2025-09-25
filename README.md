@@ -36,40 +36,38 @@ Day-1/
 ├── requirements.txt
 └── README.md
 
-bash
-Copy code
 
 ## Setup & Installation
 1. **Clone the repository**  
 ```bash
 git clone https://github.com/yourusername/day-1.git
-cd day-1```
+cd day-1
 
 2. **Build Docker image**
 ```bash
-docker build -t day-1-app```
+docker build -t day-1-app
 
 3. **Running the App**
 ```bash
-docker run -d -p 5000:5000 day-1-app```
+docker run -d -p 5000:5000 day-1-app
 
 4. **Open browser at:**
 ```bash
-http://localhost:5000```
+http://localhost:5000
 
-**CI/CD Pipeline (Jenkins):**
+## CI/CD Pipeline (Jenkins):
 Pulls code from GitHub
 Builds Docker image
 Runs container automatically
 Provides deployment logs
 
-Screenshots:
+## Screenshots:
 (To be added: terminal outputs, Jenkins pipeline, app running in browser)
 
-Architecture Diagram:
+## Architecture Diagram:
 (To be added: DevOps workflow diagram)
 
-Notes / Challenges Solved:
+## Notes / Challenges Solved:
 Configured Jenkins to build and deploy Docker container automatically
 
 Learned to resolve Docker login issues with Docker Hub using Personal Access Token
