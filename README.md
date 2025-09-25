@@ -39,18 +39,25 @@ Day-1/
 
 ## Setup & Installation
 1. **Clone the repository**  
-```bash
+```
 git clone https://github.com/yourusername/day-1.git
 cd day-1
+```
 
 2. **Build Docker image**
+```
 docker build -t day-1-app
+```
 
 3. **Running the App**
+```
 docker run -d -p 5000:5000 day-1-app
+```
 
 4. **Open browser at:**
-http://localhost:5000```
+```
+http://localhost:5000
+```
 
 ## CI/CD Pipeline (Jenkins):
 Pulls code from GitHub
