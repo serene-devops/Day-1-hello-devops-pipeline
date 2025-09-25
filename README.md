@@ -44,16 +44,13 @@ git clone https://github.com/yourusername/day-1.git
 cd day-1
 
 2. **Build Docker image**
-```bash
 docker build -t day-1-app
 
 3. **Running the App**
-```bash
 docker run -d -p 5000:5000 day-1-app
 
 4. **Open browser at:**
-```bash
-http://localhost:5000
+http://localhost:5000```
 
 ## CI/CD Pipeline (Jenkins):
 Pulls code from GitHub
