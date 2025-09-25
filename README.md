@@ -27,8 +27,8 @@ This project is a simple Flask web application, dockerized and deployed using a 
 Demonstrates automated CI/CD workflow, integrating code commits, build, and deployment using industry-standard DevOps tools.
 
 ## Folder Structure
-Day-1/ 
-├── app.py 
+Day-1/  
+├── app.py  
 ├── Dockerfile  
 ├── Jenkinsfile  
 ├── requirements.txt  
